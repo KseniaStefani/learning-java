@@ -47,7 +47,7 @@ public class FirstHomeWork {
         int height = 180;
         double heightx2 = height * height;
         double BMI = weight / heightx2 * 10000;
-        // Tut ne ponimaju pochemu ne rabotaet vot takaja formula.. :
+        // Tut ne ponimaju pochemu ne rabotaet vot takaja formula :
         // double BMI = ((weight / (height * height)) * 10000);
         if (BMI < 18.5) {
             System.out.println("Underweight.");
